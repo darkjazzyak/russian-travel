@@ -1,0 +1,17 @@
+.cover__overlay {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100%;
+  text-decoration: none;
+  background-color: rgba(42, 44, 47, .3);
+  z-index: 1;
+}
+
+.cover__overlay:hover {
+  background-color: rgba(42, 44, 47, .8);
+}
