@@ -1,5 +1,5 @@
 .header__lang-link {
-  margin: 0;
+  margin: 0 18px 0 0;
   padding: 0;
   color: #fff;
   font-size: 24px;
@@ -8,6 +8,10 @@
   text-decoration: none;
   opacity: 100%;
   transition: opacity 0.2s linear;
+}
+
+.header__lang-link:last-of-type {
+  margin: 0;
 }
 
 .header__lang-link:hover {

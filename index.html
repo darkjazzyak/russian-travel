@@ -10,7 +10,7 @@
   <header class="header page__header">
     <img src="./images/header-logo.svg" alt="Силуэт карты страны и надпись Россия" class="header__logo">
     <div class="header__lang-links">
-      <a href="#" class="header__lang-link  header__lang-link_language_ru">Ru</a>
+      <a href="#" class="header__lang-link  header__lang-link_underlined">Ru</a>
       <a href="#" class="header__lang-link">En</a>
     </div>
   </header>
@@ -20,10 +20,12 @@
       <p class="lead__subtitle">
         Настоящая страна не в выпусках новостей, а здесь.
       </p>
-      <img src="./images/lead-polka.jpg" alt="спящая на нижней полки поезда дальнего следования" class="lead__image">
-      <p class="lead__caption">
-        ваша полка — верхняя
-      </p>
+      <figure class="figure content__figure">
+        <img src="./images/lead-polka.jpg" alt="спящая на нижней полки поезда дальнего следования" class="lead__image">
+        <figcaption class="lead__caption">
+          ваша полка — верхняя
+        </figcaption>
+      </figure>
     </section>
     <section class="intro content__intro">
       <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -54,18 +56,44 @@
       </ul>
     </section>
     <section class="photo-grid content__photo-grid">
-      <img src="./images/photo-grid-train.jpg" alt="окно поезда" class="photo-grid__item">
-      <img src="./images/photo-grid-atharva-tulsi.jpg" alt="облака и горы" class="photo-grid__item">
-      <img src="./images/photo-grid-tuman.jpg" alt="волк на горе" class="photo-grid__item">
-      <img src="./images/photo-grid-sochi.jpg" alt="лес в тумане" class="photo-grid__item">
-      <img src="./images/photo-grid-arisa.jpg" alt="колесо уазика на льду" class="photo-grid__item">
-      <img src="./images/photo-grid-baikal.jpg" alt="пляж у озера Байкал" class="photo-grid__item">
-      <img src="./images/photo-grid-elbrus.jpg" alt="горные вершины" class="photo-grid__item">
-      <img src="./images/photo-grid-kondratiev.jpg" alt="усечённые конусы из бетона" class="photo-grid__item">
-      <img src="./images/photo-grid-kamchatka-1.jpg" alt="горы в тумане" class="photo-grid__item">
-      <img src="./images/photo-grid-kamchatka-2.jpg" alt="горное плато" class="photo-grid__item">
-      <img src="./images/photo-grid-baikal-2.jpg" alt="скалы у озера Байкал" class="photo-grid__item">
-      <img src="./images/photo-grid-ergaki.jpg" alt="горы в облаках" class="photo-grid__item">
+      <ul class="photo-grid__list">
+        <li class="photo-grid__list-item">
+          <img src="./images/photo-grid-train.jpg" alt="окно поезда" class="photo-grid__item">
+        </li>
+        <li class="photo-grid__list-item">
+          <img src="./images/photo-grid-atharva-tulsi.jpg" alt="облака и горы" class="photo-grid__item">
+        </li>
+        <li class="photo-grid__list-item">
+          <img src="./images/photo-grid-tuman.jpg" alt="волк на горе" class="photo-grid__item">
+        </li>
+        <li class="photo-grid__list-item">
+          <img src="./images/photo-grid-sochi.jpg" alt="лес в тумане" class="photo-grid__item">
+        </li>
+        <li class="photo-grid__list-item">
+          <img src="./images/photo-grid-arisa.jpg" alt="колесо уазика на льду" class="photo-grid__item">
+        </li>
+        <li class="photo-grid__list-item">
+          <img src="./images/photo-grid-baikal.jpg" alt="пляж у озера Байкал" class="photo-grid__item">
+        </li>
+        <li class="photo-grid__list-item">
+          <img src="./images/photo-grid-elbrus.jpg" alt="горные вершины" class="photo-grid__item">
+        </li>
+        <li class="photo-grid__list-item">
+          <img src="./images/photo-grid-kondratiev.jpg" alt="усечённые конусы из бетона" class="photo-grid__item">
+        </li>
+        <li class="photo-grid__list-item">
+          <img src="./images/photo-grid-kamchatka-1.jpg" alt="горы в тумане" class="photo-grid__item">
+        </li>
+        <li class="photo-grid__list-item">
+          <img src="./images/photo-grid-kamchatka-2.jpg" alt="горное плато" class="photo-grid__item">
+        </li>
+        <li class="photo-grid__list-item">
+          <img src="./images/photo-grid-baikal-2.jpg" alt="скалы у озера Байкал" class="photo-grid__item">
+        </li>
+        <li class="photo-grid__list-item">
+          <img src="./images/photo-grid-ergaki.jpg" alt="горы в облаках" class="photo-grid__item">
+        </li>
+      </ul>
     </section>
     <section class="places content__places">
       <article class="place places__article">
